@@ -525,7 +525,7 @@
       let li = ul.getElementsByTagName('li');
 
       for (var i = 0; i < li.length; i++) {
-        let a = li[i].getElementsByTagName('p')[0];
+        let a = li[i].getElementsByTagName('a')[0];
 
         let textvalue = a.textContent || a.innerHTML;
         if (textvalue.toUpperCase().indexOf(filter) > -1) {
